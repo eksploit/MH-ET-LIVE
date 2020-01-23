@@ -91,7 +91,7 @@ int main(void)
   EPD_Paint_Screen(black);
   EPD_Paint_Screen(white);
   //EPD_Buff_Screen((uint8_t*)&gImage_b1, sizeof(gImage_b1), black);
-  EPD_string_paint("F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.   1234567890   ÉÖÓÊÅÍÃØÙÇÕÚÔÛÂ¨ÀÏĞÎËÄÆİß×ÑÌÈÒÜÁŞ QWERTYUIOPASDFGHJKLZXCVBNM éöóêåíãøùçõúôûâàïğîëäæıÿ÷ñìèòüáş qwertyuiopasdfghjklzxcvbnm");
+  EPD_string_paint("F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.   1234567890   î€µéŒŸí„°ìµ¤è¬€æ¨‘ç«¥ì§¢ì¼è¿‘æ„·í€è£³ç·Ší›½ä¿ QWERTYUIOPASDFGHJKLZXCVBNM äº‘ç˜¡å­¼å®¤éŠœè¡æ†”å¾ªç©½é‘ä»°ï¿½ç¶ï§³æ½—æ„ qwertyuiopasdfghjklzxcvbnm");
 
 asm("nop");
   /* USER CODE END 2 */
