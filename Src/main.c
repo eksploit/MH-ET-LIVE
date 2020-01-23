@@ -91,7 +91,7 @@ int main(void)
   EPD_Paint_Screen(black);
   EPD_Paint_Screen(white);
   //EPD_Buff_Screen((uint8_t*)&gImage_b1, sizeof(gImage_b1), black);
-  EPD_string_paint("F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.   1234567890   錟터쵤謀樑童짢일近愷펀裳緊훽保 QWERTYUIOPASDFGHJKLZXCVBNM 云瘡孼室銜衝憔循穽鏑仰�琶麟潗愁 qwertyuiopasdfghjklzxcvbnm");
+  EPD_string_paint("F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.F.E.A.R.   1234567890   ЙЦУКЕНГШЩЗХЪФЫВЁАПРОЛДЖЭЯЧСМИТЬБЮ QWERTYUIOPASDFGHJKLZXCVBNM йцукенгшщзхъфывапролджэячсмитьбю qwertyuiopasdfghjklzxcvbnm");
 
 asm("nop");
   /* USER CODE END 2 */
