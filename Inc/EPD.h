@@ -1,7 +1,7 @@
 /*
  * EPD.h
  *
- *  Created on: 21 янв. 2020 г.
+ *  Created on: 21 ГїГ­Гў. 2020 ГЈ.
  *      Author: User
  */
 
@@ -37,9 +37,9 @@ void EPD_SendCommand(uint8_t command);
 void EPD_SendData(uint8_t command);
 void EPD_Paint_Screen(color background);
 void EPD_Buff_Screen(uint8_t * buff, uint16_t len, color background);
-//создание массива символов str
+//Г±Г®Г§Г¤Г Г­ГЁГҐ Г¬Г Г±Г±ГЁГўГ  Г±ГЁГ¬ГўГ®Г«Г®Гў str
 void EPD_string_to_ACSII(char *str, uint8_t *buf);
-//выводим на экран символы
+//ГўГ»ГўГ®Г¤ГЁГ¬ Г­Г  ГЅГЄГ°Г Г­ Г±ГЁГ¬ГўГ®Г«Г»
 void EPD_string_paint(char *str);
 void Busy();
 
